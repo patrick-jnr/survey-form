@@ -1,0 +1,36 @@
+/* filepath: /C:/Users/HP/wallets-app/src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@font-face {
+  font-family: 'xfinity-brown';
+  src: url('./assets/xfinity-brown/XfinityBrown-Bold.woff2') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM-Sans';
+  src: url('./assets/DM_Sans/static/DMSans_36pt-Medium.ttf') format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+body {
+  font-family: 'DM-Sans';
+  font-size: 16px;
+}
+
+h1{
+  font-family: xfinity-brown;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+button {
+  font-family: xfinity-brown;
+  /* font-size: 20px; */
+  font-weight: bold;
+}
